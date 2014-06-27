@@ -566,3 +566,355 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 20:34:58 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 20:34:58 -0400
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 20:59:15 -0400
+
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  config/routes.rb:8:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.2ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 20:59:50 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 53ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 20:59:51 -0400
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:00:41 -0400
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:03 -0400
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:28 -0400
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:02:45 -0400
+
+
+Started GET "/analytics/traffic" for 127.0.0.1 at 2014-06-26 21:02:47 -0400
+Processing by AnalyticsController#traffic as HTML
+  Rendered analytics/traffic.html.haml within layouts/application (167.2ms)
+Completed 200 OK in 179ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 21:02:48 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:02:49 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:03 -0400
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:03:27 -0400
+
+
+Started GET "/analytics/funnels" for 127.0.0.1 at 2014-06-26 21:03:31 -0400
+Processing by AnalyticsController#funnels as HTML
+  Rendered analytics/funnels.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/traffic" for 127.0.0.1 at 2014-06-26 21:03:31 -0400
+Processing by AnalyticsController#traffic as HTML
+  Rendered analytics/traffic.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 21:03:32 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 21:06:17 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (Missing partial layout/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee, :haml]}. Searched in:
+  * "/Users/shannonfox/canopyanalytics/app/views"
+):
+    16: </script>
+    17: </head>
+    18: <body>
+    19: 	<%= render partial: "layout/header" %>
+    20: <%= yield %>
+    21: 
+    22: </body>
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__331222493417727799_70231258363580'
+
+
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shannonfox/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:36 -0400
+
+
+Started GET "/analytics/funnels" for 127.0.0.1 at 2014-06-26 21:06:39 -0400
+Processing by AnalyticsController#funnels as HTML
+  Rendered analytics/funnels.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (2.4ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 21:06:40 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_header.html.haml (0.1ms)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/funnels" for 127.0.0.1 at 2014-06-26 21:06:40 -0400
+Processing by AnalyticsController#funnels as HTML
+  Rendered analytics/funnels.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (0.4ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/events" for 127.0.0.1 at 2014-06-26 21:06:42 -0400
+Processing by AnalyticsController#events as HTML
+  Rendered analytics/events.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_header.html.haml (0.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:06:43 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (0.2ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/analytics/test" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+Processing by AnalyticsController#test as HTML
+  Rendered analytics/test.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (4.4ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/analytics.css?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2014-06-26 21:06:56 -0400
