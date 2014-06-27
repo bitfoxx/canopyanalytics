@@ -1,0 +1,43 @@
+%h1 Hello!
+#my_chart
+#funnel
+:javascript
+  Keen.ready(function(){
+    var query = new Keen.Query("count_unique", {
+      eventCollection: "page-load",
+      timeframe: "this_week",
+      targetProperty: "visitor_id",
+      interval: "daily"
+    });
+    client.draw(query, document.getElementById("my_chart"), {
+      // Custom configuration here
+    });
+  });
+:coffee
+  $ ->
+    Keen.onChartsReady () ->
+      s1 = new Keen.Step "page-load",
+        name: "Logged out page load"
+        actorProperty: "visitor_id"
+        filters:[{property_name: "logged_in", operator: "eq", property_value: false}]
+
+      s2 = new Keen.Step "Show Signup Disambig",
+        name: "Show Signup Disambig"
+        actorProperty: "visitor_id"
+
+      s3 = new Keen.Step "Show Register Form", 
+        name: "Show Register Form"
+        actorProperty: "visitor_id"
+
+      s4 = new Keen.Step "User Registered",
+        name: "User Registered"
+        actorProperty: "visitor_id"
+
+      funnel = new Keen.Funnel([s1, s2, s3, s4], { actorProperty: "visitor_id" })
+      chart = new Keen.FunnelChart(funnel, {
+        height: 800, width: 900, title: "User Conversion Funnel"
+      })
+      chart.draw(document.getElementById("funnel"))
+
+
+

@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
 
-  get 'analytics/week'
-
-  get 'analytics/month'
-
   get 'analytics/funnels'
+
+  get 'analytics/traffic'
+
+  get 'analytics/events'
+
+  get 'analytics/test'
+
+  root to: "analytics#traffic"
 
   end
