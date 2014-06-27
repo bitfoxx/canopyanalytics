@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get 'analytics/test'
 
-  root to: "analytics#traffic"
+  get 'analytics/main'
+
+  root to: "analytics#main"
 
   end
