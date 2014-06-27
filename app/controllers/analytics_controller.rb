@@ -1,7 +1,10 @@
 class AnalyticsController < ApplicationController
-  def funnels
+  def week
   end
 
-  def traffic
+  def month
   end
+
+  def funnels
+  	
 end

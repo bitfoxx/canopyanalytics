@@ -1,1 +1,14 @@
-%h1 weekly tings
+%h1 Weekly Stats
+
+%p new update
+#mychart
+:javascript
+Keen.onChartsReady(function() {
+  var series = new Keen.Series("page-load", {
+    analysisType: "count",
+    timeframe: "this_week",
+    interval: "daily",
+    filters: [{"property_name":"logged_in","operator":"eq","property_value":false}]
+  });
+  series.draw(document.getElementById("my_chart"), { lineWidth: 2 });
+});
