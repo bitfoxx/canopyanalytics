@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   get 'analytics/funnels'
 
   get 'analytics/traffic'
@@ -6,5 +7,7 @@ Rails.application.routes.draw do
   get 'analytics/events'
 
   get 'analytics/test'
+
+  root to: "analytics#traffic"
 
   end
