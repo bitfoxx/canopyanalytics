@@ -8,6 +8,4 @@ Rails.application.routes.draw do
 
   get 'analytics/test'
 
-  root to: "analytics#traffic"
-
   end
