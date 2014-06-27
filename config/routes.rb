@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get 'analytics/main'
 
+  get 'analytics/email'
+
   root to: "analytics#main"
 
   end
