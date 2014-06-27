@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CanopyAnalytics</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">
+  var Keen=Keen||{configure:function(e){this._cf=e},addEvent:function(e,t,n,i){this._eq=this._eq||[],this._eq.push([e,t,n,i])},setGlobalProperties:function(e){this._gp=e},onChartsReady:function(e){this._ocrq=this._ocrq||[],this._ocrq.push(e)}};(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://":"http://")+"dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+
+Keen.configure({
+    projectId: "527eb53f36bf5a6dc8000002",
+    readKey: "65cb007940e9f6ef206b5d3306348a5ac39747ec4f2bf8538d43bc6cb8dc64f2bf752011c1c3a6237ea31f8746427593d18076cfc9a2625012fda0c38f68a3a54eadd905f6dd74631d92360ac373c57ee4ad0fcd48fc7bef433a518190a1cf7deaf715d17845e2c2268003a29cd3ce70",
+    writeKey: "85b41f8edb094296bc727fcd6899b8ef6d232c386083d744c300ed6dbc9e97a1db6c6e28ce6747a92f7068857f723867aac2354eaea132171aeb2aebef97afec0e258288fe491b044b59262428c41020df4f1fed8cc23551d4bc28b7f42bb8444594588981e786e61aff0d19104fd85d"
+});
+</script>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
