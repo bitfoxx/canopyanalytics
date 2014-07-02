@@ -1,8 +1,9 @@
-%h1 Funnels
+.container
+.header1 Funnels
 
-%p Sign up conversion 
+.subheader Sign up conversion 
 
-#funnel
+#signup-funnel
 :coffee
   $ ->
     Keen.onChartsReady () ->
@@ -25,6 +26,10 @@
 
       funnel = new Keen.Funnel([s1, s2, s3, s4], { actorProperty: "visitor_id" })
       chart = new Keen.FunnelChart(funnel, {
-        height: 800, width: 900, title: "User Conversion Funnel"
+        height: 500, width: 700 , title: "Signup Conversion Funnel"
       })
-      chart.draw(document.getElementById("funnel"))
+      chart.draw(document.getElementById("signup-funnel"))
+
+%b Second possible chart 
+
+#subscribe-funnel

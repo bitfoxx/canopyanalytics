@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-  <title>CanopyAnalytics</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-
-<link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css" />
-<link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css" />
-
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-
-  <%= csrf_meta_tags %>
-
-  <script type="text/javascript">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Canopy Analytics" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Canopy Analytics" %>">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <div class="container">
+<script type="text/javascript">
   var Keen=Keen||{configure:function(e){this._cf=e},addEvent:function(e,t,n,i){this._eq=this._eq||[],this._eq.push([e,t,n,i])},setGlobalProperties:function(e){this._gp=e},onChartsReady:function(e){this._ocrq=this._ocrq||[],this._ocrq.push(e)}};(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://":"http://")+"dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
 Keen.configure({
     projectId: "527eb53f36bf5a6dc8000002",
@@ -20,42 +17,16 @@ Keen.configure({
     writeKey: "85b41f8edb094296bc727fcd6899b8ef6d232c386083d744c300ed6dbc9e97a1db6c6e28ce6747a92f7068857f723867aac2354eaea132171aeb2aebef97afec0e258288fe491b044b59262428c41020df4f1fed8cc23551d4bc28b7f42bb8444594588981e786e61aff0d19104fd85d"
 });
 </script>
-
-</head>
 <body>
-
-	<%= render partial: "layouts/header" %>
-<div class="container">
-  <%= yield %>
+<div class="masthead">
+  Canopy Analytics
 </div>
- <%= render partial: "layouts/footer" %>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/analytics/main">Dashboard</a>
+<div class="header">
+      <%= render 'layouts/navigation' %>
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="/analytics/funnels">Funnels</a></li>
-                <li class="active"><a href="/analytics/traffic">Traffic</a></li>
-                 <li class="active"><a href="/analytics/events">Events</a></li>
-                  <li class="active"><a href="/analytics/email">Email</a></li>
-                  <li class="active"><a href="https://www.google.com/analytics/web/?hl=en#report/visitors-overview/a41745711w71283915p73518918/">External</a></li>
-
-      </ul>
-    </div>
-  </div>
-</nav>
-<footer>
-  <div class="container">
-    This is a footer - Shann's Stuff
-  </div>
-</footer>
-</body>
+    <main role="main">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </main>
+  </body>
 </html>
