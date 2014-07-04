@@ -1,5 +1,5 @@
-.html { 
-background-color: black
+html { 
+background: black;
 }
 .masthead {
   background-color: black;
@@ -7,14 +7,13 @@ background-color: black
   font-size: 28px;
   color: white;
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 55px;
   padding-bottom: 15px;
   position: relative;
   width: 100%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .header {
-  border: 1px solid #d4d4d4;
   padding-top: 5px;
   padding-bottom: 5px
   font-weight: bold;
