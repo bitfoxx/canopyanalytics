@@ -1553,33 +1553,35 @@ img.agenda-web-content {
 .wk-weektop {
     table-layout: fixed;
     width: 100%;
-    background-color: #e3e9ff;
+    background-color: #f9f9f9;
+    color: #000; 
     overflow: hidden;
-    font-size: 11px;
+    font-size: medium;
     line-height: 14px;
 }
 
 .wk-dayname {
-    font-weight: normal;
-    color: #20c;
+    font-weight: bold;
+    size; medium; 
+    color: #000;
     padding: 2px 4px;
     white-space: nowrap;
 }
 
 .wk-today {
-    background-color: #fad163;
-    color: #20c;
-    font-weight: normal;
+    background-color: #f9f9f9;
+    color: #000;
+    font-weight: bold;
 }
 
 .wk-today {
-    border: 1px solid #fad163;
+    border: 1px solid #f9f9f9;
     padding: 1px;
 }
 
 .wk-dummyth {
     vertical-align: top;
-    background-color: #e3e9ff;
+    background-color: #f9f9f9;
     padding: 0;
 }
 
@@ -1695,7 +1697,7 @@ body.ie .wk-scrolltimedevents,body.ie .tg-mainwrapper {
 }
 
 .tg-col-today {
-    border-left: 1px solid #fad163;
+    border-left: 1px solid #1bdbb8;
     vertical-align: top;
 }
 
@@ -1716,11 +1718,11 @@ body.ie .wk-scrolltimedevents,body.ie .tg-mainwrapper {
 }
 
 .tg-today {
-    background-color: #fff7d7;
+    background-color: #e8fbf7;
 }
 
 .bg-exists .tg-today {
-    background-color: #eee;
+    background-color: #e8fbf7;
     opacity: .5;
     filter: alpha(opacity=50);
 }
@@ -1788,7 +1790,7 @@ body.ie .wk-scrolltimedevents,body.ie .tg-mainwrapper {
 }
 
 .wk-tzlabel {
-    color: #666;
+    color: #fff;
     vertical-align: bottom;
     text-align: center;
     overflow: hidden;
@@ -1806,7 +1808,7 @@ body.ie .wk-scrolltimedevents,body.ie .tg-mainwrapper {
 
 .wk-sideevents {
     width: 20%;
-    font-family: Verdana,sans-serif;
+    font-family: helvetica;
     vertical-align: top;
     padding-top: 1px;
 }
@@ -1867,13 +1869,13 @@ body.ie .wk-scrolltimedevents,body.ie .tg-mainwrapper {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
+    background: #f9f9f9;
     color: #20c;
 }
 
 .mv-dayname {
     font-weight: bold;
-    color: #444444;
+    color: #000;
     font-size: medium;
     padding: -8px;
 }
@@ -1885,9 +1887,9 @@ body.ie .wk-scrolltimedevents,body.ie .tg-mainwrapper {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #f9f9f9;
-    border-top: 2px solid #e5e5e5;
-    border-bottom: 2px solid #e5e5e5;
+    background: #fff;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 .month-row {
